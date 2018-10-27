@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "Simple chat app",
   "main": "server.js",
+  "homepage": "https://SIBIL7.github.io/sibil_s_chat_app",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Sibil Sany",
   "license": "ISC",
   "dependencies": {
     "socket.io": "*",
-    "express": "*"
+    "express": "*",
+    "gh-pages": "^2.0.1"
   }
 }
+
